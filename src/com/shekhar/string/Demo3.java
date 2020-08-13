@@ -1,14 +1,13 @@
 package com.shekhar.string;
 
-import static java.lang.Math.*;
-import java.lang.Math;
-import java.lang.*;
-
-
 public class Demo3 {
 
-	public static void main(String[] args) {
-		System.out.println(PI);
+	static int x = 10;
+	
+	public static void main(String... args) {
+		String city = " Ab-b d ";
+		city = city.replaceAll("[^A-Za-z0-9]", "");
+		System.out.println(city);
 	}
 
 }
